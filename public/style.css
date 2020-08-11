@@ -1,7 +1,32 @@
-body {
+body{
+  background: rgb(245,245,245);
+  color: rgb(20, 20, 20);
+  font-family:  'Roboto', sans-serif;
   margin: 0;
   padding: 0;
 }
+h1{
+  font-family:  'Roboto', sans-serif;
+  color: gray;
+  font-weight: lighter;
+  font-size: 50px;
+}
+h2 {
+  font-family:  'Roboto', sans-serif;
+  color: black;
+  font-weight: lighter;
+  font-size: 20px;
+}
+a {
+  color: purple;
+}
+a:hover {
+  text-decoration: none;
+  color: purple;
+}
+
+
+
 
 
 #video-grid {
@@ -22,9 +47,42 @@ video {
 
 }
 
+.main_controls {
+  display: flex;
+  background-color: #1C1E20;
+  color: #D2D2D2;
+  padding: 5px;
+  justify-content: space-between;
+
+}
+
+.main_controls_block {
+  display: flex;
+}
+
+.main_controls_button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 10px;
+  min-width: 90px;
+  cursor: pointer;
+
+}
+
+.main_controls_button:hover {
+  opacity: 0.4;
+}
+
+.main_controls_button i {
+  font-size: 30px;
+}
+
 .main_left {
   flex: 0.8;
   display: flex;
+  flex-direction: column;
 }
 
 .main_right {
@@ -39,3 +97,5 @@ video {
   justify-content: center;
   align-items: center;
 }
+
+
