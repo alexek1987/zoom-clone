@@ -120,7 +120,7 @@ const playStop = () => {
 
 const setStopVideo = () => {
   const html = `
-    <i class="fas fa-video-slash"></i>
+    <i class="fas fa-video"></i>
     <span>Stop Video</span>
   `
   document.querySelector('.main_video_button').innerHTML = html;
@@ -128,7 +128,7 @@ const setStopVideo = () => {
 
 const setPlayVideo = () => {
   const html = `
-    <i class="share fas fa-video"></i>
+    <i class="share fas fa-video-slash"></i>
     <span>Share Video</span>
   `
   document.querySelector('.main_video_button').innerHTML = html;
