@@ -105,6 +105,9 @@ video {
   color: #F5F5F5;
   text-align: center;
 }
+.main_header h6 {
+  margin-top: 3px;
+}
 
 .main_chat_window {
 flex-grow: 1;
@@ -123,6 +126,7 @@ overflow-y: scroll;
   color: #F5F5F5;
   height: 40px;
   margin-bottom: 2px;
+  margin-left: 3px;
 }
 
 .messages {
@@ -131,4 +135,27 @@ overflow-y: scroll;
 
 .unmute, .share {
   color: #ED3833
+}
+
+.nav {
+  background-color: #343434;
+  border: 1px solid #3D3D42;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 4px;
+}
+
+.nav h5 {
+  font-size: 15px;
+  font-weight: bold;
+  padding: 3px;
+  text-align: center;
+}
+
+.nav p {
+  font-size: 12px;
+  margin-bottom: 0px;
+  padding: 3px;
+  text-align: center;
 }
