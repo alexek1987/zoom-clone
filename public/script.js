@@ -134,8 +134,3 @@ const setPlayVideo = () => {
   document.querySelector('.main_video_button').innerHTML = html;
 }
 
-
-
-
-
-
