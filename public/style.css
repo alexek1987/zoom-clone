@@ -121,8 +121,14 @@ overflow-y: scroll;
   background-color: transparent;
   border: none;
   color: #F5F5F5;
+  height: 40px;
+  margin-bottom: 2px;
 }
 
 .messages {
   color: white;
+}
+
+.unmute, .share {
+  color: #ED3833
 }
